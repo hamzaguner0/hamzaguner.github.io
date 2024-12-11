@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 10px 325px;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 24px; /* Başlık boyutunu büyütüyoruz */
+    font-weight: bold; /* Kalın yazı tipi */
+    color: #333; /* Başlık rengi */
+    border-bottom: 2px solid #4CAF50; /* Başlığın altına ince bir çizgi ekliyoruz */
+    padding-bottom: 10px; /* Çizgi ile başlık arasına boşluk */
+    margin-bottom: 20px; /* Başlık ile içerik arasında boşluk */
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 150px; /* Resmin genişliği */
+    height: 150px; /* Resmin yüksekliği */
+    border-radius: 50%; /* Yuvarlak yapmak için */
+    object-fit: cover; /* Resmin bozulmadan kesilmesini sağlar */
+    display: block;
+    margin: 0 auto; /* Resmi ortalamak için */
+}
+
+/* Sosyal medya ikonlarının konumlandırılması */
+.social-icons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Diğer öğelerin üstünde görünmesini sağlar */
+}
+
+.social-icon {
+    display: block;
+    margin-bottom: 10px;
+    color: #333; /* İkonların rengi */
+    font-size: 18px; /* İkon boyutunu küçültüyoruz */
+    transition: color 0.3s; /* Hover efekti için geçiş */
+}
+
+.social-icon:hover {
+    color: #4CAF50; /* Hover durumunda renk değişimi */
+}
+
+/* İkonların hizalanması */
+.social-icon i {
+    font-size: 24px; /* İkon boyutunu küçültüyoruz */
+}
