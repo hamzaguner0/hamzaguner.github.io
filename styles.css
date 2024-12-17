@@ -99,3 +99,34 @@ footer {
 .social-icon i {
     font-size: 24px; /* İkon boyutunu küçültüyoruz */
 }
+
+/* Mobil cihazlar için düzenleme */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Sağdan ve soldan boşluğu azaltıyoruz */
+    }
+
+    .container {
+        width: 95%; /* Container'ı daha geniş yaparak ekrana sığmasını sağlıyoruz */
+    }
+
+    nav ul {
+        flex-direction: column; /* Navigasyon menüsünü dikey hale getiriyoruz */
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 100px; /* Profil resmini küçültüyoruz */
+        height: 100px;
+    }
+
+    .social-icons {
+        position: static; /* Sosyal medya ikonlarını sabitlikten çıkarıyoruz */
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .social-icon i {
+        font-size: 20px; /* Sosyal medya ikonlarının boyutunu küçültüyoruz */
+    }
+}
